@@ -55,3 +55,10 @@ p {
     margin: 10px;
 }
 
+@media(max-width:568px) {
+
+    .container {
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
