@@ -57,6 +57,15 @@ p {
 
 @media(max-width:568px) {
 
+    h1 {
+        font-size: x-large;
+    }
+    
+    h2 {
+        color:cadetblue;
+        font-size: medium;
+    }
+
     .container {
         grid-template-rows: repeat(3, 1fr);
         grid-template-columns: repeat(3, 1fr);
